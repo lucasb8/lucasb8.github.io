@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Flavicon -->
+    <link rel="icon" type="image/png" href="./assets/images/flavicon.png" />
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,7 +32,10 @@
             ><h3><i class="bi bi-instagram"></i></h3>
           </a>
         </div>
-        <h1>Lucas BRIERE</h1>
+        <div>
+          <h1><span class="blue-letter">L</span><span class="blue-letter">u</span>cas <span class="blue-letter">B</span>RI<span class="blue-letter">E</span>RE</h1>
+          <p>Trouve le mot cach&eacute; en regardant autour de toi</p>
+        </div>
         <nav>
           <div>
             <div class="burger-menu content-center gradient-insta">
@@ -44,6 +49,7 @@
               <li><a href="#home">Accueil</a></li>
               <li><a href="#context">Contexte</a></li>
               <li><a href="#exposition">Exposition</a></li>
+              <li><a href="#profil">Profil</a></li>
               <li>
                 <a href="https://www.instagram.com/lucasb9220/"
                   ><i class="bi bi-instagram"></i>lucasB9220</a>
@@ -55,8 +61,8 @@
     </header>
     <article class="container" id="context">
       <div class="row">
-        <h2 class="col-12 col-md-6">CONTEXTE</h2>
-        <div class="col-12 col-md-6">
+        <h2 class="col-12 col-md-3">CONTEXTE</h2>
+        <div class="col-12 col-md-9">
           <h3>
             <strong>
               Pour cette deuxi&egrave;me &eacute;dition du colors festival, j'ai
@@ -98,7 +104,8 @@
             </a>
             <img
               src="./assets/images/noizy.jpeg"
-              class="d-block w-100"
+              class="d-block w-100" 
+              id="horizontal-image"
             />
           </div>
           <div class="col-12 col-md-6 box-image">
@@ -213,6 +220,25 @@
         </div>
       </div>
     </section>
+    <article class="container" id="profil">
+      <div class="row">
+        <h2 class="col-12">Profil</h2>
+      </div>
+      <div class="row">
+        <img class="col-12 col-md-3 profil-img" src="./assets/images/profil.jpeg"/>
+        <div class="col-12 col-md-9">
+          <p id="text-on-me">
+            Actuellement en &eacute;cole d'ing&eacute;nieur en informatique, 
+            je suis passionn&eacute; de photographie depuis l'&acirc;ge de 10 ans.
+            J'aime beaucoup m&eacute;langer les styles en passant par le minimalisme, l'abstrait,
+            le street-art et la g&eacute;om&eacute;trie. Je suis tr&egrave;s heureux de pouvoir montrer mon travail en r&eacute;el
+            dans cette premi&egrave;re exposition dans laquelle je participe.<br /><br />
+            N'hésite pas à me contacter à l'adresse suivante pour toute question ou remarque:<br />
+            <a href="mailto: lucas.briere@gmail.com">lucas.briere@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </article>
     <script src="./assets/scripts.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

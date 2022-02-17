@@ -95,7 +95,6 @@ header nav div.burger-menu > div {
 header nav div.burger-menu div.bar {
   width: 22px;
   height: 2px;
-  background-color: #fff;
   margin: 4px 0px;
   transition: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -160,6 +159,14 @@ header div.insta-logo {
   -webkit-background-clip: text;
 }
 
+.blue-letter {
+  color: cadetblue;
+}
+
+header p {
+  text-align: center;
+}
+
 /**
  * CONTENT 1
  */
@@ -180,7 +187,7 @@ section {
 
 section h2 {
   text-align: right;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 section h4 {
@@ -188,13 +195,11 @@ section h4 {
   text-align: center;
 }
 
-section .box-image {
-  margin-bottom: 30px;
+section .carousel {
+  margin-top: 180px;
 }
 
 section img {
-  max-height: 400px;
-  object-fit: contain;
   cursor: pointer;
 }
 
@@ -224,14 +229,29 @@ section img {
 }
 
 /**
+ * CONTENT 3
+ */
+.profil-img {
+  max-height: 150px;
+  width: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#text-on-me {
+  text-align: center;
+}
+
+/**
  * MENU
  */
 .menu {
   display: inline-block;
+  position: fixed;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
-  transition: 0.5s;
 }
 
 .menu > li {
