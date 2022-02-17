@@ -179,7 +179,8 @@ section {
 }
 
 section h2 {
-  text-align: center;
+  text-align: right;
+  padding-bottom: 80px;
 }
 
 section h4 {
@@ -187,13 +188,13 @@ section h4 {
   text-align: center;
 }
 
-section div#photos {
-  width: 80vh;
-  height: 80vh;
-  margin-top: 50px;
+section .box-image {
+  margin-bottom: 30px;
 }
 
 section img {
+  max-height: 400px;
+  object-fit: contain;
   cursor: pointer;
 }
 
