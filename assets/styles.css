@@ -278,6 +278,11 @@ section img {
   text-align: center;
 }
 
+article a {
+  color: black;
+  text-decoration: none;
+}
+
 /**
  * CONTENT 3
  */
