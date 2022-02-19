@@ -14,7 +14,7 @@ document.body.appendChild(lightbox);
 
 const images = document.querySelectorAll("img");
 images.forEach((image) => {
-  image.addEventListener("click", (e) => {
+  image.addEventListener("click", () => {
     lightbox.classList.add("active");
     document.getElementById("full-screen-div").style.display = "block";
     const img = document.createElement("img");
@@ -24,6 +24,10 @@ images.forEach((image) => {
     }
     lightbox.appendChild(img);
   });
+});
+
+lightbox.addEventListener("click", () => {
+  lightbox.classList.remove("active");
 });
 
 function closeFullScreen() {
