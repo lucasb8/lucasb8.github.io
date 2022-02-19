@@ -28,6 +28,7 @@ images.forEach((image) => {
 
 lightbox.addEventListener("click", () => {
   lightbox.classList.remove("active");
+  document.getElementById("full-screen-div").style.display = "none";
 });
 
 function closeFullScreen() {
