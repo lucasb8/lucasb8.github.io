@@ -16,6 +16,7 @@ const images = document.querySelectorAll("img");
 images.forEach((image) => {
   image.addEventListener("click", (e) => {
     lightbox.classList.add("active");
+    document.getElementById("full-screen-div").style.display = "block";
     const img = document.createElement("img");
     img.src = image.src;
     while (lightbox.firstChild) {
@@ -25,9 +26,10 @@ images.forEach((image) => {
   });
 });
 
-lightbox.addEventListener("click", (e) => {
+function closeFullScreen() {
   lightbox.classList.remove("active");
-});
+  document.getElementById("full-screen-div").style.display = "none";
+}
 
 /*
  * REVEAL METHOD
