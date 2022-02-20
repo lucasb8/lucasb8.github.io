@@ -115,16 +115,12 @@ header nav div.burger-menu div.bar {
 header nav div.burger-menu div.bar {
   width: 22px;
   height: 2px;
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
   margin: 4px 0px;
   transition: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.color-insta {
+  background: linear-gradient(135deg, #bc1888 0%, #dc2743 50%, #eeb722 100%);
 }
 
 header nav.open div.burger-menu div.bar-2 {
@@ -160,17 +156,9 @@ header div.insta-logo {
   z-index: 2000;
 }
 
-.gradient-insta {
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+.insta-header {
+  width: 35px;
+  height: 35px;
 }
 
 .blue-letter {
@@ -282,14 +270,6 @@ section img {
 
 #button-close {
   color: black;
-  background: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
   border: 0;
   border-radius: 10%;
 }
