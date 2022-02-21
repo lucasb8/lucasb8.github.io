@@ -319,15 +319,22 @@ article a {
 
 .menu > li {
   list-style: none;
-  color: #fff;
   font-size: 1.5rem;
   padding-top: 5px;
 }
 
-.menu > li > a {
-  color: inherit;
+.effect {
   text-decoration: none;
-  transition: color 0.4s ease;
+  box-shadow: inset 0 0 0 0 cornflowerblue;
+  color: #54b3d6;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.effect:hover {
+  color: black;
+  box-shadow: inset 200px 0 0 0 cornflowerblue;
 }
 
 /*
