@@ -202,7 +202,7 @@ section .carousel {
   margin-top: 180px;
 }
 
-section img {
+.exposition img {
   cursor: pointer;
 }
 
@@ -304,6 +304,11 @@ article a {
 #remerciements a {
   color: white;
   text-decoration: none;
+}
+
+.superman-logo {
+  width: 20px;
+  height: 20px;
 }
 
 /**
