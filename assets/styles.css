@@ -197,6 +197,10 @@ section {
   margin: 0 200px 0px 200px;
 }
 
+section h2 {
+  padding-bottom: 40px;
+}
+
 /**
  * BLACK MODE
  */
@@ -208,7 +212,6 @@ section {
 
 .black-mode h2 {
   text-align: right;
-  padding-bottom: 40px;
 }
 
 .black-mode h4 {
@@ -228,10 +231,6 @@ section {
 .white-mode {
   background-color: white;
   color: black;
-}
-
-.white-mode h2 {
-  padding-bottom: 30px;
 }
 
 .white-mode a {
