@@ -349,12 +349,12 @@ section .context-text {
   max-height: 150px;
   width: auto;
   border-radius: 50%;
-  margin: 0 auto;
-  margin-bottom: 40px;
+  margin: auto auto;
 }
 
 #text-on-me {
   text-align: center;
+  padding: 20px 0;
 }
 
 /**
