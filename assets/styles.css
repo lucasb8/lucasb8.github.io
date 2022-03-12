@@ -219,12 +219,16 @@ section .row {
 }
 
 section h2 {
-  padding-bottom: 20px;
   padding-top: 50px;
 }
 
 section .context-text {
   padding-top: 20px;
+}
+
+#profil h2,
+#remerciements h2 {
+  padding-bottom: 20px;
 }
 
 /**
