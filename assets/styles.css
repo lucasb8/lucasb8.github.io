@@ -6,11 +6,15 @@ body {
 
 header p {
   font-family: "Staatliches", Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 p,
 h3 {
   font-family: Helvetica, Arial, sans-serif;
+  text-align: justify;
+  font-weight: bold;
+  color: black;
 }
 
 @media (min-width: 1000px) {
@@ -201,6 +205,11 @@ section h4 {
 
 section .carousel {
   margin-top: 180px;
+}
+
+section p {
+  text-align: right;
+  color: white;
 }
 
 .exposition img {
