@@ -201,6 +201,11 @@ section h2 {
   padding-bottom: 40px;
 }
 
+section p,
+section h3 {
+  padding: 0 20px 0 20px;
+}
+
 /**
  * BLACK MODE
  */
