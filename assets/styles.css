@@ -191,42 +191,52 @@ header p {
   font-size: 25px;
 }
 
-/**
- * CONTENT 1
- */
-
-article div.row {
-  margin: 50px 0px;
-}
-
-/**
- * CONTENT 2
- */
-
 section {
-  background-color: #000;
-  color: #fff;
   padding: 50px 0px;
   width: 100%;
+  margin: 0 200px 0px 200px;
 }
 
-section h2 {
+/**
+ * BLACK MODE
+ */
+
+.black-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.black-mode h2 {
   text-align: right;
   padding-bottom: 40px;
 }
 
-section h4 {
+.black-mode h4 {
   color: white;
   text-align: center;
 }
 
-section .carousel {
-  margin-top: 180px;
-}
-
-section p {
+.black-mode p {
   text-align: right;
   color: white;
+}
+
+/**
+ * WHITE MODE
+ */
+
+.white-mode {
+  background-color: white;
+  color: black;
+}
+
+.white-mode h2 {
+  padding-bottom: 30px;
+}
+
+.white-mode a {
+  color: black;
+  text-decoration: none;
 }
 
 .exposition img {
@@ -234,6 +244,10 @@ section p {
 }
 
 /* CAROUSEL */
+.carousel {
+  margin-top: 180px;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
@@ -314,11 +328,6 @@ section p {
 
 #text-on-me {
   text-align: center;
-}
-
-article a {
-  color: black;
-  text-decoration: none;
 }
 
 /**
