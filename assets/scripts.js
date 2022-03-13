@@ -59,3 +59,5 @@ const observer = new IntersectionObserver(handleIntersect, options);
 document.querySelectorAll(".reveal").forEach(function (r) {
   observer.observe(r);
 });
+
+history.replaceState(null, null, " ");
