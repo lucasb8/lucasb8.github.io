@@ -112,7 +112,7 @@ header h1 {
 
 header nav {
   position: fixed;
-  z-index: 2000;
+  z-index: 1100;
   top: 0px;
   right: 0px;
 }
@@ -125,14 +125,13 @@ header nav.open {
 header nav.open > div {
   width: 100%;
   height: 100%;
-
   background-color: rgba(0, 0, 0, 0.9);
 }
 
 header nav div.burger-menu {
   position: absolute;
-  top: 20px;
-  right: 25px;
+  top: 2px;
+  right: 9px;
   width: 15px;
   height: 30px;
   cursor: pointer;
@@ -181,22 +180,39 @@ header nav.open ul.menu {
   position: absolute;
   top: 0px;
   left: 0px;
-
   display: block;
 }
 
 header div.insta-logo {
   position: fixed;
-  top: 18px;
-  left: 15px;
-  width: 30px;
-  height: 30px;
-  z-index: 2000;
+  top: 2px;
+  left: 2px;
+  z-index: 1100;
 }
 
 .insta-header {
-  width: 35px;
-  height: 35px;
+  width: 31px;
+  height: 31px;
+}
+
+header .dot {
+  position: fixed;
+  height: 90px;
+  width: 90px;
+  background-color: black;
+  border-radius: 30%;
+  display: inline-block;
+  z-index: 1000;
+}
+
+header #dot-left {
+  top: -50px;
+  left: -50px;
+}
+
+header #dot-right {
+  top: -50px;
+  right: -50px;
 }
 
 .blue-letter {
@@ -297,7 +313,7 @@ section .context-text {
 /* LIGHTBOX */
 #lightbox {
   position: fixed;
-  z-index: 1000;
+  z-index: 1200;
   top: 0;
   width: 100%;
   height: 100%;
