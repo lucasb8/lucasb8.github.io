@@ -200,7 +200,7 @@ header .dot {
   height: 90px;
   width: 90px;
   background-color: black;
-  border-radius: 30%;
+  border-radius: 20%;
   display: inline-block;
   z-index: 1000;
 }
